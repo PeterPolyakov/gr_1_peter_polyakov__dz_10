@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Точка роста</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <ul class="menu_fixed">
+            <li>
+                <a href="#header" class="menu_fixed-link">О компании</a>
+            </li>
+            <li>
+                <a href="#activities" class="menu_fixed-link">Деятельность</a>
+            </li>
+            <li>
+                <a href="#benefits" class="menu_fixed-link">Преимущества</a>
+            </li>
+            <li>
+                <a href="#footer" class="menu_fixed-link">Контакты</a>
+            </li>
+        </ul>
+        <div class="burger-menu">
+            <a href="#" class="burger-menu_button">
+                <span class="burger-menu_lines"></span>
+            </a>
+            <nav class="burger-menu_nav">
+                <a href="#header" class="burger-menu_link">О компании</a>
+                <a href="#activities" class="burger-menu_link">Деятельность</a>
+                <a href="#benefits" class="burger-menu_link">Преимущества</a>
+                <a href="#footer" class="burger-menu_link">Контакты</a>
+            </nav>
+            <div class="burger-menu_overlay"></div>
+        </div>
+        <div class="header__contacts wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 col-md-6 col-lg-6 col-xl-8">
+                        <div class="header__social">
+                            <a href="#">
+                                <img src="img/header_vk.svg" alt="vk">
+                            </a>
+                            <a href="#">
+                                <img src="img/header_fb.svg" alt="fb">
+                            </a>
+                            <a href="#">
+                                <img src="img/header_insta.svg" alt="insta">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 px-0 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                        <div class="header__tel contacts">
+                            <a href="#">
+                                <img class="contacts__icon" src="img/header_letter.svg" alt="phone">
+                                <span>+7 (495) 780-94-44</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 px-0 mx-0 col-sm-4 col-md-3 col-lg-3 col-xl-2 px-sm-0">
+                        <div class="header__mail contacts">
+                            <a href="mailto:mail@tochkarosta.me">
+                                <img class="icon" src="img/header_phone.svg" alt="mail">
+                                <span>mail@tochkarosta.me</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 mx-auto">
+                        <div class="header__logo">
+                            <a class="header__logo" href="#"><img src="img/header__logo.png" alt="logo"></a>
+                            <img class="header__sublogo" src="img/header_sub-logo.png" alt="sub-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 mx-auto">
+                        <div class="header__text">
+                            ООО "Точка Роста" занимается научными исследованиями и разработками в области общественных и
+                            гуманитарных наук. Цели деятельности - удовлетворение потребностей населения в разнообразных
+                            высококачественных товарах и услугах, развитие предпринимательской деятельности, разработка
+                            информационных систем
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="mouse">
+                            <a href="#"><img src="img/header_mouse.svg" alt="mouse"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="activities wrapper" id="activities">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="activities__title">Виды деятельности</div>
+                    </div>
+                </div>
+                <div class="activities__blocks">
+                    <div class="row ">
+                        <div class="col-8 col-sm-6 col-md-6 col-lg-3 mx-lg-auto mx-auto col-xl-3">
+                            <div class="activities__block">
+                                <img src="img/activities-1.svg" alt="">
+                                <div>Научные исследования</div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-6 col-lg-3 mx-lg-auto mx-auto col-xl-3">
+                            <div class="activities__block">
+                                <img src="img/activities-2.svg" alt="">
+                                <div>Издательская</div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-6 col-lg-3 mx-lg-auto mx-auto col-xl-3">
+                            <div class="activities__block">
+                                <img src="img/activities-3.svg" alt="">
+                                <div>Финансовая</div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-6 col-lg-3 mx-lg-auto mx-auto col-xl-3">
+                            <div class="activities__block">
+                                <img src="img/activities-4.svg" alt="">
+                                <div>Разработка программного обеспечения</div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-6 col-lg-3 mx-lg-auto mx-auto col-xl-3">
+                            <div class="activities__block block-1">
+                                <img src="img/activities-5.svg" alt="">
+                                <div>Информационные технологии</div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-6 col-lg-3 mx-lg-auto mx-auto col-xl-3">
+                            <div class="activities__block block-1">
+                                <img src="img/activities-6.svg" alt="">
+                                <div>Образование</div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-6 col-lg-3 mx-lg-auto mx-auto col-xl-3">
+                            <div class="activities__block block-1 block-2">
+                                <img src="img/activities-7.svg" alt="">
+                                <div>Социальные услуги</div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-6 col-lg-3 mx-lg-auto mx-auto col-xl-3">
+                            <div class="activities__block block-1 block-2">
+                                <img src="img/activities-8.svg" alt="">
+                                <div>Внешне экономическая</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="benefits" id="benefits">
+            <div class="benefits__block wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="benefits__title">Наши преимущества</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 mx-auto">
+                            <div class="benefits__card">
+                                <div class="card__img"><img src="img/benefits-1.svg" alt=""></div>
+                                <div class="card__title">Быстро</div>
+                                <div class="card__text">Время разработки простейшей ИС может занять не более 2-х часов.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 mx-auto">
+                            <div class="benefits__card">
+                                <div class="card__img"><img src="img/benefits-2.svg" alt=""></div>
+                                <div class="card__title">Качественно</div>
+                                <div class="card__text">Учитываем все Ваши пожелания.</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 mx-auto">
+                            <div class="benefits__card">
+                                <div class="card__img"><img src="img/benefits-3.svg" alt=""></div>
+                                <div class="card__title">Недорого</div>
+                                <div class="card__text">Гибкая ценовая политика. Стоимость зависит от сложности проекта.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts wrapper" id="contacts>
+            <div class=" container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contacts__title"">Контакты</div>
+                    </div>
+                </div>
+                <form action=" #" class="contacts__form">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="form__input">
+                                    <input type="text" name="username" placeholder="Ваше Имя">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="form__input">
+                                    <input type="email" name="usermail" placeholder="Ваш Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="form__text">
+                                    <textarea name="message" placeholder="Ваше сообщение"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-lg-2 mx-auto">
+                                <div class="form__button">
+                                    <button type="submit">Отправить</button>
+                                </div>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="arrow_to_top">
+                        <a href="#header"><img src="img/arrow-to-top.svg" alt=""></a>
+                    </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="footer__block wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-1 col-xl-3">
+                        <div class="footer__logo ">
+                            <a href="#">
+                                <img src="img/footer-logo.svg" alt="footer-logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-11 col-xl-9">
+                        <div class="footer__adress text-end">
+                            <a href="#"><img src="img/footer-adress.svg" alt="adress">105264, г. Москва, ул. Верхняя
+                                Первомайская, д. 36, стр. 2</a>
+                        </div>
+                        <div class="footer__contacts d-flex justify-content-end">
+                            <div class="footer__phone">
+                                <a href="tel:+7(495) 780-94-44">
+                                    <img src="img/footer-phone.svg" alt="phone">+7 (495) 780-94-44
+                                </a>
+                            </div>
+                            <div class="footer__mail">
+                                <a href="mailto:mail@tochkarosta.me">
+                                    <img src="img/footer-letter.svg" alt="mail">mail@tochkarosta.me
+                                </a>
+                            </div>
+                            <div class="footer__site">
+                                <a href="www.tochkarosta.me">
+                                    <img src="img/footer-site.svg" alt="site"> www.tochkarosta.me
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">Все права защищены ©2019</div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
